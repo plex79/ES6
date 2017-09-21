@@ -1,9 +1,6 @@
-let values = [10, 20, 30];
+import React from 'react';
+import ReactDOM from 'react-dom';
 
-let double = (n) => {
-	return n * 2;
-}
-
-let doubled = values.map(double);
-
-console.log(doubled);
+ReactDOM.render(
+	<div>React Application</div>, document.getElementById('root')
+);
